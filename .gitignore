@@ -1,0 +1,16 @@
+
+audioMixer/cmake-build-debug/
+
+audioMixer/cmake-build-debug-mingw/
+
+audioMixer/.idea/
+
+audioMixerFirmware/.idea/
+
+audioMixerFirmware/.vscode/
+
+audioMixerFirmware/build/
+
+audioMixerFirmware/audioMixerFirmware/
+
+audioMixerFirmware/cmake-build-debug-mingw/

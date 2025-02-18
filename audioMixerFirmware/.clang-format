@@ -1,0 +1,74 @@
+# ColumnLimit
+ColumnLimit: 160
+
+# Tabs
+TabWidth: 4
+UseTab: Always
+
+# Indentation
+IndentWidth: 4
+AccessModifierOffset: -4
+NamespaceIndentation: All
+IndentPPDirectives: BeforeHash
+IndentCaseLabels: true
+
+# Brace Wrapping
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: false
+  AfterCaseLabel: false
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterObjCDeclaration: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: false
+  BeforeElse: false
+  BeforeLambdaBody: false
+  BeforeWhile: false
+
+# Alignment
+AlignAfterOpenBracket: Align
+AlignConsecutiveAssignments: AcrossEmptyLinesAndComments
+AlignConsecutiveBitFields: AcrossEmptyLinesAndComments
+AlignConsecutiveDeclarations: AcrossEmptyLinesAndComments
+AlignConsecutiveMacros: AcrossEmptyLinesAndComments
+AlignEscapedNewlines: Left
+AlignOperands: AlignAfterOperator
+PointerAlignment: Left
+AlignTrailingComments: true
+
+# Short Statements
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+AllowShortEnumsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: All
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortBlocksOnASingleLine: Always
+
+# Use of Spaces
+SpaceBeforeParens: Never
+Cpp11BracedListStyle: true
+SeparateDefinitionBlocks: Always
+
+# Empty Lines
+EmptyLineBeforeAccessModifier: Never
+
+# Breaks
+PackConstructorInitializers: CurrentLine
+BreakBeforeConceptDeclarations: Never
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeComma
+BreakInheritanceList: BeforeComma
+AlwaysBreakBeforeMultilineStrings: false
+AlwaysBreakTemplateDeclarations: No
+
+# Include Order
+IncludeCategories:
+  - Regex: '"ppch\.h"'
+    Priority: 0
+    SortPriority: 0
+  - Regex: '.*'
+    Priority: 1
+    SortPriority: 1

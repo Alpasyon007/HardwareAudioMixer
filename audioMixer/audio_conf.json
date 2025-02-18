@@ -1,0 +1,16 @@
+{
+  "applications": [
+    {
+      "application_name": "Spotify.exe",
+      "pot_number": 0
+    },
+    {
+      "application_name": "LeagueClient.exe",
+      "pot_number": 4
+    },
+    {
+      "application_name": "chrome.exe",
+      "pot_number": 4
+    }
+  ]
+}
